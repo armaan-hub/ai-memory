@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "database_path": "~/.claude/mcp-daemon/data/memory.db",
+  "log_level": "INFO",
+  "log_file": "~/.claude/mcp-daemon/logs/mcp-daemon.log",
+  "max_recent_items": 50,
+  "max_search_results": 20,
+  "compact_tiers": {
+    "light": {"max_items": 5, "min_importance": 8},
+    "medium": {"max_items": 20, "min_importance": 1},
+    "deep": {"max_items": 100, "min_importance": 1}
+  },
+  "handoff_retention_hours": 72,
+  "server": {
+    "transport": "stdio",
+    "name": "mcp-memory-hub"
+  }
+}

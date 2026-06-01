@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.db
+*.db-shm
+*.db-wal
+logs/*.log
+config/
+data/
+tools/
+test-server.py
+.DS_Store
+*.egg-info/
+dist/
+build/

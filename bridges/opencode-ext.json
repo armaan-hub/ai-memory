@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "memory-hub": {
+      "command": "python3",
+      "args": ["/Users/armaan/.claude/mcp-daemon/bridges/opencode-bridge.py"]
+    }
+  }
+}
