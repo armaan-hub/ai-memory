@@ -14,6 +14,7 @@ Usage:
 import sqlite3
 import json
 import sys
+import uuid
 from pathlib import Path
 from typing import Optional, List, Dict
 
